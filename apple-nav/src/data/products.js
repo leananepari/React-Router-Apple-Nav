@@ -21,14 +21,28 @@ import ipad_mini from '../assets/ipads/ipadmini.svg';
 import ipad_pro from '../assets/ipads/ipadpro.svg';
 import smart_keyboard from '../assets/ipads/smart_keyboard.svg';
 
+//Import IPhones
+import accessories_iphone from '../assets/iphones/accessories_iphone.svg';
+import airpods from '../assets/iphones/airpods.svg';
+import applecard from '../assets/iphones/applecard.svg';
+import compare_iphone from '../assets/iphones/compare_iphone.svg';
+//reuse iOS 12 icon
+import iphone_7 from '../assets/iphones/iphone7.svg';
+import iphone_8 from '../assets/iphones/iphone8.svg';
+import iphone_xr from '../assets/iphones/iphonexr.svg';
+import iphone_xs from '../assets/iphones/iphonexs.svg';
+
+
 export const macs = [
   {
     title: 'MacBook Air',
-    image: macbookair
+    image: macbookair,
+    new: 'New'
   },
   {
     title: 'MacBook Pro',
-    image: macbookpro
+    image: macbookpro,
+    new: 'New'
   },
   {
     title: 'iMac',
@@ -40,7 +54,8 @@ export const macs = [
   },
   {
     title: 'Mac Pro',
-    image: mac_pro
+    image: mac_pro,
+    new: 'New'
   },
   {
     title: 'Mac mini',
@@ -67,7 +82,8 @@ export const ipads = [
   },
   {
     title: 'iPad Air',
-    image: ipad_air
+    image: ipad_air,
+    new: 'New'
   },
   {
     title: 'iPad',
@@ -75,7 +91,8 @@ export const ipads = [
   },
   {
     title: 'iPad mini',
-    image: ipad_mini
+    image: ipad_mini,
+    new: 'New'
   },
   {
     title: 'Compare',
@@ -99,4 +116,64 @@ export const ipads = [
   }
 ]
 
+export const iphones = [
+  {
+    title: 'iPhone Xs',
+    image: iphone_xs,
+    new: 'New'
+  },
+  {
+    title: 'iPhone XR',
+    image: iphone_xr,
+    new: 'New'
+  },
+  {
+    title: 'iPhone 8',
+    image: iphone_8
+  },
+  {
+    title: 'iPhone 7',
+    image: iphone_7
+  },
+  {
+    title: 'Compare',
+    image: compare_iphone
+  },
+  {
+    title: 'Apple Card',
+    image: applecard
+  },
+  {
+    title: 'AirPods',
+    image: airpods
+  },
+  {
+    title: 'Accessories',
+    image: accessories_iphone
+  },
+  {
+    title: 'iOS 12',
+    image: ios_12
+  }
+]
 
+export const watches = [
+  {
+    title: '',
+    image: ''
+  }
+]
+
+export const tvs = [
+  {
+    title: '',
+    image: ''
+  }
+]
+
+export const music = [
+  {
+    title: '',
+    image: ''
+  }
+]

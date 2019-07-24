@@ -16,7 +16,10 @@ function SubNav({ products }) {
   return (
     <SubNavWrap>
       {products.map((product, index) => {
-        return <Product key={index} title={product.title} image={product.image}/>
+        return <Product key={index} title={product.title ? product.title : 'Title'} 
+                                    image={product.image ? product.image : ''}
+                                    newProduct={product.new ? product.new : ''}
+                />
       })}
     </SubNavWrap>
   );
